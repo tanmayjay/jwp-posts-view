@@ -1,0 +1,20 @@
+{
+    "name": "jay/posts-view",
+    "description": "A plugin to count and show views of each post.",
+    "type": "wordpress-plugin",
+    "license": "GPL v2",
+    "authors": [
+        {
+            "name": "Tanmay Kirtania",
+            "email": "jktanmay@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jay\\JPV\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
